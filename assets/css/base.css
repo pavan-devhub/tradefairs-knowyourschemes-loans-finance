@@ -1,0 +1,91 @@
+/* Converted from the FEED React app: src/index.css
+   Only the global rules these pages use: theme tokens, the reset, the page shell. */
+
+
+:root {
+  --bg-main: #f4f7f6;
+  
+  /* Premium Design Variables */
+  --primary-accent: #1f8d5f;
+  --secondary-accent: #d99a18;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  --glass-blur: blur(16px);
+  --surface-color: #ffffff;
+  --text-dark: #121814;
+  --text-muted: #5e756b;
+  --anim-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Icon Base Colors */
+  --ic-yellow: #FFF9C4;
+  --ic-green: #C8E6C9;
+  --ic-blue: #BBDEFB;
+  --ic-amber: #FFE0B2;
+  --ic-purple: #E1BEE7;
+  --ic-teal: #B2DFDB;
+  --ic-red: #FFCDD2;
+  --ic-navy: #C5CAE9;
+  --ic-gold: #FFE082;
+  --ic-pink: #F8BBD0;
+  --ic-darkgreen: #A5D6A7;
+  --ic-indigo: #9FA8DA;
+  --ic-orange: #FFCCBC;
+  --ic-lime: #DCE775;
+  --ic-maroon: #D7CCC8;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+  background-color: #f4f7f6;
+  overflow-x: clip;
+}
+
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: clip;
+  padding-bottom: 112px;
+}
+
+
+.app-container.is-home {
+  padding-bottom: 0;
+}
+
+
+.main-content-bg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Footer subscribe box: its mail icon */
+
+.input-icon {
+  position: absolute;
+  left: 16px;
+  color: #9aa9a1;
+  display: flex;
+}
